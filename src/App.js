@@ -1,12 +1,29 @@
 import React from 'react';
 
+import Layout from './components/Layout/Layout';
+
 const App = () => {
 
   return(
     <div>
-        <h1>
-          Reseted!
-        </h1>
+        <Layout>
+
+            <div>
+              Banner
+            </div>
+
+            <div>
+              Holder 1
+            </div>
+
+            <div>
+              Mosaic Container -- 4 Mosaic (2 normal and 2 reverse)
+            </div>
+
+            <div>
+              Holder
+            </div>
+        </Layout>
     </div>
   )
 

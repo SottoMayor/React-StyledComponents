@@ -1,18 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo1 from '../../assets/images/logo1.png';
+import Logo1 from '../assets/images/logo1.png';
 
-import Logo2 from '../../assets/images/logo2.png';
+import Logo2 from '../assets/images/logo2.png';
 
-import GrayStripe from '../../styled-components/GrayStripe';
+import GrayStripe from '../styled-components/GrayStripe';
 
-import Logo from '../../styled-components/Logo';
+import Logo from '../styled-components/Logo';
 
 const GrayStripeSB = styled(GrayStripe)`
 
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 768px){
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 
 `
 

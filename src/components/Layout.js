@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Toolbar from '../Toolbar/Toolbar';
+import Toolbar from './Toolbar';
+
+import Footer from './Footer';
 
 const Layout = (props) => (
     <React.Fragment>
@@ -11,7 +13,7 @@ const Layout = (props) => (
             {props.children}
         </main>
 
-        <div> Footer</div>
+        <Footer/>
 
     </React.Fragment>
 )

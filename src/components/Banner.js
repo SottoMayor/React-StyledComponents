@@ -64,7 +64,7 @@ const Banner = () => {
             </BannerContainer>
 
             <ArrowContainer>
-            <img src={Arrow}/>
+                <img src={Arrow} alt="Arrow"/>
             </ArrowContainer>
 
         </React.Fragment>

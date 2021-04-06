@@ -8,6 +8,8 @@ import GrayStripe from '../styled-components/GrayStripe';
 
 import StandardParagraph from '../styled-components/StandartParagraph';
 
+import Input from './Input';
+
 const FormContainer = styled.main`
 
     height: 100%;
@@ -35,17 +37,11 @@ const Form = () => {
 
             <Container>
 
-                <p>
-                    inputGroup
-                </p>
+                <Input/>
 
-                <p>
-                    inputGroup
-                </p>
+                <Input/>
 
-                <p>
-                    inputGroup
-                </p>
+                <Input/>
 
                 <p>
                     Button!

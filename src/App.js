@@ -21,7 +21,7 @@ const App = () => {
             </div>
 
             <div>
-              Holder
+              Holder 2
             </div>
         </Layout>
     </div>

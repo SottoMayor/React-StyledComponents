@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+
+import Toolbar from '../Toolbar/Toolbar';
 
 const Layout = (props) => (
     <React.Fragment>
 
-        <div> ToolBar</div>
+        <Toolbar/>
 
         <main>
             {props.children}

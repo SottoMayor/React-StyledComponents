@@ -9,10 +9,13 @@ import GrayStripe from '../styled-components/GrayStripe';
 
 import Logo from '../styled-components/Logo';
 
-const GrayStripeSB = styled(GrayStripe)`
+import MainContainer from '../styled-components/MainContainer';
+
+const MainContainerToolBar = styled(MainContainer)`
 
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 
     @media screen and (max-width: 768px){
 
@@ -27,17 +30,21 @@ const GrayStripeSB = styled(GrayStripe)`
 const Toolbar = () => {
     return (
         
-        <GrayStripeSB>
+        <GrayStripe>
 
-            <Logo>
-                <img src={Logo1} alt="Logo1" />
-            </Logo>
+            <MainContainerToolBar>
 
-            <Logo>
-                <img src={Logo2} alt="Logo2" />
-            </Logo>
+                <Logo>
+                    <img src={Logo1} alt="Logo1" />
+                </Logo>
 
-        </GrayStripeSB>
+                <Logo>
+                    <img src={Logo2} alt="Logo2" />
+                </Logo>
+
+            </MainContainerToolBar>
+
+        </GrayStripe>
 
     )
 }

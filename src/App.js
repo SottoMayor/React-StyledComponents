@@ -2,15 +2,15 @@ import React from 'react';
 
 import Layout from './components/Layout';
 
+import Banner from './components/Banner';
+
 const App = () => {
 
   return(
     <div>
         <Layout>
 
-            <div>
-              Banner
-            </div>
+            <Banner/>
 
             <div>
               Holder 1
@@ -23,6 +23,7 @@ const App = () => {
             <div>
               Holder 2
             </div>
+
         </Layout>
     </div>
   )

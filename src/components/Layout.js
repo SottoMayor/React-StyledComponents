@@ -4,14 +4,16 @@ import Toolbar from './Toolbar';
 
 import Footer from './Footer';
 
+import MainContainer from '../styled-components/MainContainer';
+
 const Layout = (props) => (
     <React.Fragment>
 
         <Toolbar/>
 
-        <main>
+        <MainContainer>
             {props.children}
-        </main>
+        </MainContainer>
 
         <Footer/>
 

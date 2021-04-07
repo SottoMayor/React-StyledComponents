@@ -20,6 +20,23 @@ const styledInput = styled.div`
         box-shadow: 6px 6px 6px gray;
     }
 
+    & > label{
+        color: #464b51;
+    }
+
+
+    @media screen and (max-width: 768px){
+        & > input {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width: 576px){
+        & > input {
+            font-size: 16px;
+        }
+    }
+
 `
 
 export default styledInput;

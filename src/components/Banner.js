@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Form from './Form';
+import Form from '../containers/Form';
 
 import styled from 'styled-components';
 
@@ -17,9 +17,14 @@ const BannerContainer = styled(Container)`
     background-image: url(${BackgroundIMG});
     background-size: 100% 100%;
     width: 100%;
-    height: 75vh;
+    height: auto;
     display: flex;
     justify-content: flex-end;
+
+    @media screen and (max-width: 768px){
+        justify-content: center;
+    }
+
 `
 
 const ArrowContainer = styled(Logo)`
@@ -36,16 +41,22 @@ const ArrowContainer = styled(Logo)`
 
     @media screen and (max-width: 768px){
 
+        top: -20px;
+
         & > img{
-            width: 32px
+            width: 40px;
+            height: 40px
         }
 
     }
 
     @media screen and (max-width: 576px){
 
+        top: -16px;
+
         & > img{
-            width: 32px
+            width: 32px;
+            height: 32px;
         }
 
     }
@@ -59,7 +70,7 @@ const Banner = () => {
 
             <BannerContainer>
 
-            <Form/>
+                <Form/>
 
             </BannerContainer>
 

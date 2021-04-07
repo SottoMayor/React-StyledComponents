@@ -32,7 +32,7 @@ const ArrowContainer = styled(Logo)`
     display: flex;
     justify-content: center;
     position: relative;
-    top: -24px;
+    top: -30px;
 
     & > img{
         width: 48px;
@@ -52,7 +52,7 @@ const ArrowContainer = styled(Logo)`
 
     @media screen and (max-width: 576px){
 
-        top: -16px;
+        top: -23px;
 
         & > img{
             width: 32px;

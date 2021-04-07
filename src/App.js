@@ -3,18 +3,17 @@ import React from 'react';
 import Layout from './components/Layout';
 
 import Banner from './components/Banner';
+import HolderUP from './components/HolderUP';
 
 const App = () => {
 
   return(
-    <div>
+    <React.Fragment>
         <Layout>
 
             <Banner/>
 
-            <div>
-              Holder 1
-            </div>
+            <HolderUP/>
 
             <div>
               Mosaic Container -- 4 Mosaic (2 normal and 2 reverse)
@@ -25,7 +24,7 @@ const App = () => {
             </div>
 
         </Layout>
-    </div>
+    </React.Fragment>
   )
 
 }

@@ -3,7 +3,10 @@ import React from 'react';
 import Layout from './components/Layout';
 
 import Banner from './components/Banner';
+
 import HolderUP from './components/HolderUP';
+
+import Mosaic from './components/Mosaic';
 
 const App = () => {
 
@@ -15,9 +18,7 @@ const App = () => {
 
             <HolderUP/>
 
-            <div>
-              Mosaic Container -- 4 Mosaic (2 normal and 2 reverse)
-            </div>
+            <MosaicContainer/>
 
             <div>
               Holder 2

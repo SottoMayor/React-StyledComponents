@@ -27,7 +27,7 @@ const Input = (props) => {
 
         <StyledInput>
 
-            <label for={props.key} >*{props.label}</label>
+            <label >*{props.label}</label>
 
             {inputType}
 

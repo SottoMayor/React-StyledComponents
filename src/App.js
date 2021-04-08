@@ -6,7 +6,7 @@ import Banner from './components/Banner';
 
 import HolderUP from './components/HolderUP';
 
-import Mosaic from './components/Mosaic';
+import MosaicContainer from './containers/MosaicContainer';
 
 const App = () => {
 

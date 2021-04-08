@@ -73,7 +73,7 @@ const Mosaic = (props) => {
             <BlueStripeMosaic>
                 
                 <ParagraphMosaic>
-                    O sol nasce para todos mas se põe de um jeito exclusivo aqui.
+                    {props.text}
                 </ParagraphMosaic>
 
             </BlueStripeMosaic>

@@ -8,6 +8,8 @@ import HolderUP from './components/HolderUP';
 
 import MosaicContainer from './containers/MosaicContainer';
 
+import HolderDOWN from './components/HolderDOWN';
+
 const App = () => {
 
   return(
@@ -20,9 +22,7 @@ const App = () => {
 
             <MosaicContainer/>
 
-            <div>
-              Holder 2
-            </div>
+            <HolderDOWN/>
 
         </Layout>
     </React.Fragment>

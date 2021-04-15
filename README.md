@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## About this project
+
+
+This project is an adaptation of another project(Projeto 2) by the company DankiCode.
+This time, the proposal is to use React in its development.
+Here, we used class-based components to manage state, an old approch to manage states. Besides, it was used styled-components to styling the components.
